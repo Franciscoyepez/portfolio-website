@@ -4,66 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="apple-touch-icon" sizes="180x180" href="">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/fy-high-resolution-logo-transparent.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/fy-high-resolution-logo-transparent.png">
     <link rel="stylesheet" href="/css/styles.css">
     <title>Francisco Yepez - Portfolio</title>
 </head>
 <body>
 
-  <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="#"><img class="resize" src="images/terminal-solid.png" alt="logo"> Francisco Yepez</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link"href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link nav-pills" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+  <div class="wrapper">
+    <header>
+      <a href="#"><img src="/images/fy-high-resolution-logo-transparent.png"></a>
+
+      <nav class="navbar">
+        <ul>
+          <li><a href="#">01. About</a></li>
+          <li><a href="#">02. Projects</a></li>
+          <li><a href="#">03. Contact</a></li>
+        </ul>
       </nav>
-  <!-- End Navbar -->
+    </header>
 
-  <!-- Intro -->
-    <section id="intro" class="text-center text-dark bg-light">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col">
-            <h1>Under Construction</h1>
-            <h2>Coming Soon!</h2>
-          </div>
-        </div>
+    <main>
+      <div class="left-col">
+        <h1>Hi, my name is Francisco Yepez.</h1>
+        <h2>I build applications for the web.</h2>
+        <p>I am a software engineer specializing in building web applications using Angular, Spring Boot & AWS. I am currently focused on learning more about topics related to backend development and data engineering.</p>
+        <p>Check out some of my work below.</p>
       </div>
-    </section>
-  <!-- End Intro -->
-  
-  <!-- Footer -->
-  <footer class="text-center text-lg-start">
-    <div class="container">
-        <div class="text-center p-4">
-          © 2023 Copyright:
-          <a class="text-reset fw-bold" href="https://franciscoyepez.dev/">franciscoyepez.dev</a>
-        </div>
-    </div>
-  </footer>
-  <!-- End Footer -->
+      <div class="right-col">
+        <img src="" alt="Profile picture">
+      </div>
+    </mai>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <section>
+      <h2>Projects</h2>
+      <div class="card"><h3>Card 1</h3></div>
+      <div class="card"><h3>Card 2</h3></div>
+      <div class="card"><h3>Card 3</h3></div>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <div class="contact-form"></div>
+    </section>
+
+    <footer>
+      <h2>Footer</h2>
+    </footer>
+
+  </div>
+
 </body>
 </html>
